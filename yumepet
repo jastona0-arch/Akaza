@@ -1,14 +1,24 @@
-Step 1 — Create your YumePet project
+Step 9 — Get YumePet on your teammate's computer
+After they accept the invitation, your teammate should:
+1. Install Git and Node.js if not already installed.
+2. Open Git Bash in the folder where they want to keep the project.
+3. Run:
+git clone https://github.com/jastona0-arch/YumePet.git
+cd YumePet
+npm install
+npm run dev
 
-1. Open VS Code
-Open Visual Studio Code on your computer.
+
+They will then have their own local copy of YumePet.
+Step 10 — Keep both copies synchronized
+Whenever you make new changes, upload them using:
+git add .
+git commit -m "Describe your changes"
+git push
 
 
-
-2. Open the terminal
-Click Terminal → New Terminal in the top menu.
-
+Before starting new work, your teammate should run:
+git pull
 
 
-3. Choose where to create the project
-Copy this command into the terminal and press Enter:
+For now, have your teammate accept the invitation and clone the repository.
